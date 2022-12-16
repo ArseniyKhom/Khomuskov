@@ -341,8 +341,8 @@ class Report:
         list_by_year (list): Список словарей распределенных по годам
         list_by_area (list): Список словарей распределенных по городам
         """
-        env = Environment(loader=FileSystemLoader('.'))
-        template = env.get_template("2.1.3.html")
+        env = Environment(loader=FileSystemLoader('./templates'))
+        template = env.get_template("pdf_template.html")
 
         pdf_template = template.render(
             {'name': vacancy_name, 'list_by_year': list_by_year, 'list_by_area': list_by_area,
@@ -350,7 +350,7 @@ class Report:
              'area_td_3': list(list_by_area[1].keys()), 'area_td_4': list(list_by_area[1].values())})
 
         options = {'enable-local-file-access': None}
-        config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
+        config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe')
         pdfkit.from_string(pdf_template, 'report.pdf', configuration=config, options=options)
 
     @staticmethod
