@@ -22,4 +22,4 @@ unittest
 
 
 Третий вариант
-![Uploading 3ый вариант.png…]()
+![3ый вариант](https://user-images.githubusercontent.com/117999903/208293249-04ab00fa-5963-4b87-8442-03c6b016bf1e.png)
