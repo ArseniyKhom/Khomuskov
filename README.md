@@ -23,3 +23,8 @@ unittest
 
 Третий вариант
 ![3ый вариант](https://user-images.githubusercontent.com/117999903/208293249-04ab00fa-5963-4b87-8442-03c6b016bf1e.png)
+
+
+
+3.2.1
+![3 2 1](https://user-images.githubusercontent.com/117999903/208374841-718a41cb-d6c0-40eb-958c-aeaa0b99296b.png)
