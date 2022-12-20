@@ -30,3 +30,24 @@ unittest
 
 
 ![3 2 1](https://user-images.githubusercontent.com/117999903/208374841-718a41cb-d6c0-40eb-958c-aeaa0b99296b.png)
+
+
+
+3.2.2
+
+
+Без многопроцессорной обработки
+![Без многопроцессорной обработки](https://user-images.githubusercontent.com/117999903/208649886-cc6f49a6-7e2d-4323-933d-5b13a7dda228.png)
+
+
+Многопроцессорная обработка multiprocessing
+![Многопроцессорная обработка multiprocessing](https://user-images.githubusercontent.com/117999903/208650029-4f49b027-fd06-46be-8782-64811ce504ba.png)
+
+
+
+3.2.3
+
+
+Многопроцессорная обработка с concurrent futures
+![Многопроцессорная обработка с concurrent futures](https://user-images.githubusercontent.com/117999903/208650200-cf9412fd-67a0-4274-9c90-946695579582.png)
+
