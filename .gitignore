@@ -1,3 +1,4 @@
 /.idea
 /venv
-*.csv
+/vacancies_dif_currencies.csv
+/csv_files
