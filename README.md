@@ -51,3 +51,9 @@ unittest
 Многопроцессорная обработка с concurrent futures
 ![Многопроцессорная обработка с concurrent futures](https://user-images.githubusercontent.com/117999903/208650200-cf9412fd-67a0-4274-9c90-946695579582.png)
 
+
+
+3.3.1
+
+
+![3 3 1](https://user-images.githubusercontent.com/117999903/210107856-12607b02-de83-414b-bae6-11ef2955c853.png)
