@@ -43,7 +43,7 @@ df["salary"] = df.apply(
                                     row["published_at"][:7].split("-")), axis=1)
 df = df[df["salary"].notnull()]
 
-new_connection = sqlite3.connect("3.5.2.db")
+new_connection = sqlite3.connect("3_5_2.db")
 new_cursor = new_connection.cursor()
 df.to_sql(name="vdc_db", con=new_connection, if_exists='replace', index=False)
 new_connection.commit()
